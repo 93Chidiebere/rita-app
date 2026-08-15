@@ -1,9 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ArrowLeft, Sparkles, Music, ChevronRight, ChevronLeft, Book, Heart, Star, Target } from "lucide-react";
 
 export default function PrayerPlayer() {
+  const router = useRouter();
   const [step, setStep] = useState(1);
   const totalSteps = 8;
   const [rosaryMystery, setRosaryMystery] = useState("");
@@ -567,7 +569,13 @@ O God, You Whom it pleased to grant St. Rita such enormous grace that she imitat
         <button 
           className="btn-primary" 
           style={{ flex: 2 }}
-          onClick={() => setStep(Math.min(totalSteps, step + 1))}
+          onClick={() => {
+            if (step === totalSteps) {
+              router.push("/");
+            } else {
+              setStep(Math.min(totalSteps, step + 1));
+            }
+          }}
         >
           {step === totalSteps ? 'Finish' : 'Next'}
           <ChevronRight size={20} />
