@@ -12,6 +12,23 @@ export const metadata = {
   title: "St. Rita Devotion",
   description: "Daily devotion app for St. Rita of Cascia",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/Rita.jfif",
+  },
+  openGraph: {
+    title: "St. Rita Devotion",
+    description: "Daily devotion app for St. Rita of Cascia",
+    url: "https://mama-rita.vercel.app/",
+    siteName: "St. Rita Devotion",
+    images: [
+      {
+        url: "https://mama-rita.vercel.app/Rita.jfif",
+        width: 800,
+        height: 600,
+      }
+    ],
+    type: "website",
+  }
 };
 
 export const viewport = {
