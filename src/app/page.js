@@ -1,13 +1,25 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import { Calendar as CalendarIcon, ChevronRight, Heart, RefreshCw, Book, CalendarDays } from "lucide-react";
 
 export default function Home() {
-  const currentDate = new Date().toLocaleDateString('en-US', {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric'
-  });
+  const [greeting, setGreeting] = useState("Good Day");
+  const [currentDate, setCurrentDate] = useState("");
+
+  useEffect(() => {
+    const hour = new Date().getHours();
+    if (hour < 12) setGreeting("Good Morning");
+    else if (hour < 18) setGreeting("Good Afternoon");
+    else setGreeting("Good Evening");
+
+    setCurrentDate(new Date().toLocaleDateString('en-US', {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric'
+    }));
+  }, []);
 
   return (
     <main style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
@@ -15,11 +27,11 @@ export default function Home() {
       {/* Header Section */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
-          <p style={{ color: 'var(--color-pink-800)', fontWeight: '600', marginBottom: '4px' }}>Good Day</p>
+          <p style={{ color: 'var(--color-pink-800)', fontWeight: '600', marginBottom: '4px' }}>{greeting}</p>
           <h1 style={{ fontSize: '32px', color: 'var(--color-pink-900)', fontWeight: '800', marginBottom: '16px' }}>Welcome!</h1>
           <p style={{ color: '#71717a', fontSize: '15px', lineHeight: 1.5 }}>
-            St. Rita of Cascia,<br/>
-            pray for us. <span style={{ color: 'var(--color-pink-500)' }}>♥</span>
+            Mama Rita,<br/>
+            Wonder worker. <span style={{ color: 'var(--color-pink-500)' }}>♥</span>
           </p>
         </div>
         
@@ -37,6 +49,7 @@ export default function Home() {
             fill
             style={{ objectFit: 'cover' }}
             priority
+            unoptimized
           />
         </div>
       </div>
@@ -68,7 +81,7 @@ export default function Home() {
             <p style={{ fontSize: '12px', color: 'var(--color-pink-500)', fontWeight: '500' }}>Daily Devotion</p>
           </div>
         </div>
-        <Link href="/devotions/today" className="btn-primary" style={{ padding: '12px 16px', borderRadius: '16px' }}>
+        <Link href="/devotions/daily/play" className="btn-primary" style={{ padding: '12px 16px', borderRadius: '16px' }}>
           Start
           <ChevronRight size={16} />
         </Link>

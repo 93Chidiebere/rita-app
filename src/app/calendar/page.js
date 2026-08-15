@@ -1,16 +1,38 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Bell } from "lucide-react";
 
 export default function CalendarPage() {
-  const currentYear = new Date().getFullYear();
-  
-  // Generating days for May (May has 31 days)
-  // Assuming May 1st starts on Friday for 2026 layout
-  const daysInMonth = Array.from({ length: 31 }, (_, i) => i + 1);
-  const emptyPrefix = Array.from({ length: 5 }, (_, i) => null); // padding for layout
+  const [currentDate, setCurrentDate] = useState(new Date());
+
+  const year = currentDate.getFullYear();
+  const month = currentDate.getMonth(); // 0-11
+
+  // Handle month navigation
+  const prevMonth = () => {
+    if (year === 2000 && month === 0) return;
+    setCurrentDate(new Date(year, month - 1, 1));
+  };
+
+  const nextMonth = () => {
+    if (year === 2030 && month === 11) return;
+    setCurrentDate(new Date(year, month + 1, 1));
+  };
+
+  const monthName = currentDate.toLocaleString('default', { month: 'long' });
+
+  // Generate days
+  const daysInMonthCount = new Date(year, month + 1, 0).getDate();
+  const firstDayOfMonth = new Date(year, month, 1).getDay(); // 0 is Sunday
+
+  const daysInMonth = Array.from({ length: daysInMonthCount }, (_, i) => i + 1);
+  const emptyPrefix = Array.from({ length: firstDayOfMonth }, (_, i) => null);
+
+  const isMay = month === 4;
 
   return (
-    <main style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+    <main style={{ padding: '20px', display: 'flex', flexDirection: 'column', gap: '24px', paddingBottom: '100px' }}>
       
       <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -26,9 +48,13 @@ export default function CalendarPage() {
 
       <div className="card" style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <button style={{ color: '#a1a1aa' }}><ChevronLeft size={24} /></button>
-          <span style={{ fontWeight: '700', color: 'var(--color-pink-900)', fontSize: '18px' }}>May {currentYear}</span>
-          <button style={{ color: '#a1a1aa' }}><ChevronRight size={24} /></button>
+          <button onClick={prevMonth} disabled={year === 2000 && month === 0} style={{ color: year === 2000 && month === 0 ? '#e4e4e7' : '#a1a1aa' }}>
+            <ChevronLeft size={24} />
+          </button>
+          <span style={{ fontWeight: '700', color: 'var(--color-pink-900)', fontSize: '18px' }}>{monthName} {year}</span>
+          <button onClick={nextMonth} disabled={year === 2030 && month === 11} style={{ color: year === 2030 && month === 11 ? '#e4e4e7' : '#a1a1aa' }}>
+            <ChevronRight size={24} />
+          </button>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', textAlign: 'center', gap: '8px' }}>
@@ -39,8 +65,8 @@ export default function CalendarPage() {
           {emptyPrefix.map((_, i) => <div key={`empty-${i}`} />)}
           
           {daysInMonth.map(date => {
-            const isFeastDay = date === 22;
-            const isNovena = date >= 13 && date <= 21;
+            const isFeastDay = isMay && date === 22;
+            const isNovena = isMay && date >= 13 && date <= 21;
             
             return (
               <div key={date} style={{ 
@@ -66,27 +92,29 @@ export default function CalendarPage() {
         </div>
       </div>
 
-      <div style={{ padding: '0 8px' }}>
-        <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--color-pink-900)', marginBottom: '16px' }}>Upcoming Events</h3>
-        
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-            <div style={{ width: '4px', height: '40px', background: 'var(--color-pink-500)', borderRadius: '2px' }} />
-            <div>
-              <p style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '15px' }}>St. Rita Novena</p>
-              <p style={{ fontSize: '13px', color: '#71717a' }}>May 13 - May 21</p>
-            </div>
-          </div>
+      {isMay && (
+        <div style={{ padding: '0 8px' }}>
+          <h3 style={{ fontSize: '16px', fontWeight: '700', color: 'var(--color-pink-900)', marginBottom: '16px' }}>Upcoming Events</h3>
           
-          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-            <div style={{ width: '4px', height: '40px', background: 'var(--color-pink-800)', borderRadius: '2px' }} />
-            <div>
-              <p style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '15px' }}>Feast of St. Rita</p>
-              <p style={{ fontSize: '13px', color: '#71717a' }}>May 22</p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+              <div style={{ width: '4px', height: '40px', background: 'var(--color-pink-500)', borderRadius: '2px' }} />
+              <div>
+                <p style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '15px' }}>St. Rita Novena</p>
+                <p style={{ fontSize: '13px', color: '#71717a' }}>May 13 - May 21, {year}</p>
+              </div>
+            </div>
+            
+            <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+              <div style={{ width: '4px', height: '40px', background: 'var(--color-pink-800)', borderRadius: '2px' }} />
+              <div>
+                <p style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '15px' }}>Feast of St. Rita</p>
+                <p style={{ fontSize: '13px', color: '#71717a' }}>May 22, {year}</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
     </main>
   );
