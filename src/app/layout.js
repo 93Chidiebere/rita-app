@@ -12,6 +12,9 @@ export const metadata = {
   title: "St. Rita Devotion",
   description: "Daily devotion app for St. Rita of Cascia",
   manifest: "/manifest.json",
+};
+
+export const viewport = {
   themeColor: "#ffffff",
 };
 
