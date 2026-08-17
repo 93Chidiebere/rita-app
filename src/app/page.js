@@ -96,7 +96,7 @@ export default function Home() {
         
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
           {/* Card 1 */}
-          <Link href="/devotions/daily" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px', background: 'var(--color-pink-50)' }}>
+          <Link href="/devotions/daily/play" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px', background: 'var(--color-pink-50)' }}>
             <div className="btn-icon">
               <Heart size={20} />
             </div>
@@ -105,27 +105,27 @@ export default function Home() {
           </Link>
           
           {/* Card 2 */}
-          <Link href="/devotions/monthly-novena" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
+          <Link href="/devotions/fifteen-thursdays" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
             <div className="btn-icon">
               <RefreshCw size={20} />
             </div>
-            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>Monthly Novena</span>
+            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>15 Thursdays Devotion</span>
           </Link>
           
           {/* Card 3 */}
-          <Link href="/devotions/chaplet" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
+          <Link href="/devotions/nine-days-novena" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
             <div className="btn-icon">
               <Book size={20} />
             </div>
-            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>St. Rita Chaplet</span>
+            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>9 Days Novena</span>
           </Link>
 
           {/* Card 4 */}
-          <Link href="/devotions/feast-days" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
+          <Link href="/devotions/other-prayers" className="card" style={{ padding: '24px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '16px' }}>
             <div className="btn-icon">
               <CalendarDays size={20} />
             </div>
-            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>Feast Days & Events</span>
+            <span style={{ fontWeight: '600', color: 'var(--color-pink-900)', fontSize: '14px' }}>Feast day events and Other Prayers</span>
           </Link>
         </div>
       </section>
