@@ -3,10 +3,10 @@ import { ArrowLeft, Heart, RefreshCw, Book, CalendarDays, Church, Target } from 
 
 export default function DevotionsPage() {
   const devotions = [
-    { name: "Daily Devotion", icon: Heart, href: "/devotions/daily" },
-    { name: "Monthly Novena", icon: RefreshCw, href: "/devotions/monthly-novena" },
-    { name: "St. Rita Chaplet", icon: Book, href: "/devotions/chaplet" },
-    { name: "Feast Days & Events", icon: CalendarDays, href: "/devotions/feast-days" },
+    { name: "Daily Devotion", icon: Heart, href: "/devotions/daily/play" },
+    { name: "15 Thursdays Devotion", icon: RefreshCw, href: "/devotions/fifteen-thursdays" },
+    { name: "9 Days Novena", icon: Book, href: "/devotions/nine-days-novena" },
+    { name: "Feast day events and Other Prayers", icon: CalendarDays, href: "/devotions/other-prayers" },
     { name: "Yearly Programs", icon: Church, href: "/devotions/yearly" },
     { name: "Retreats", icon: Target, href: "/devotions/retreats" },
   ];
