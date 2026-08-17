@@ -69,7 +69,7 @@ export default function CalendarPage() {
             const isNovena = isMay && date >= 13 && date <= 21;
             
             return (
-              <div key={date} style={{ 
+              <Link href={`/devotions/daily/play?day=${date}`} key={date} style={{ 
                 display: 'flex', 
                 flexDirection: 'column', 
                 alignItems: 'center', 
@@ -82,11 +82,12 @@ export default function CalendarPage() {
                 color: isFeastDay ? 'white' : isNovena ? 'var(--color-pink-800)' : 'var(--color-pink-900)',
                 fontWeight: (isFeastDay || isNovena) ? '700' : '500',
                 fontSize: '14px',
-                position: 'relative'
+                position: 'relative',
+                textDecoration: 'none'
               }}>
                 {date}
                 {isNovena && <div style={{ position: 'absolute', bottom: '4px', width: '4px', height: '4px', borderRadius: '50%', background: 'var(--color-pink-500)' }} />}
-              </div>
+              </Link>
             );
           })}
         </div>

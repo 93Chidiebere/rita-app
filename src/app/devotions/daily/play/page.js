@@ -1,11 +1,15 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft, Sparkles, Music, ChevronRight, ChevronLeft, Book, Heart, Star, Target } from "lucide-react";
 
-export default function PrayerPlayer() {
+function PrayerPlayerContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const queryDay = searchParams.get("day");
+  const date = queryDay ? parseInt(queryDay, 10) : new Date().getDate();
+
   const [step, setStep] = useState(1);
   const totalSteps = 8;
   const [rosaryMystery, setRosaryMystery] = useState("");
@@ -18,7 +22,6 @@ export default function PrayerPlayer() {
     else if (day === 4) setRosaryMystery("Mysteries of Light");
   }, []);
 
-  const date = new Date().getDate();
   const dailyPrayers = {
     1: `In the name of the Father and of the Son, etc. Amen.
 
@@ -583,5 +586,13 @@ O God, You Whom it pleased to grant St. Rita such enormous grace that she imitat
       </div>
 
     </main>
+  );
+}
+
+export default function PrayerPlayer() {
+  return (
+    <Suspense fallback={<div style={{ padding: '20px', textAlign: 'center', color: 'var(--color-pink-900)' }}>Loading Prayer...</div>}>
+      <PrayerPlayerContent />
+    </Suspense>
   );
 }
