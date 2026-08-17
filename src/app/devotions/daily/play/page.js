@@ -338,7 +338,187 @@ Come O Holy Spirit, enkindle in the hearts of the faithful the fire of your divi
 
 that such affection may be in us impossible of quenching by the many waters of this air and land and sea, according to that saying, 'Many waters are not able to quench love' which in us also can be fulfilled even in part by your gift, Our Lord Jesus Christ, to Whom is the glory unto ages of ages". Amen.
 
-Say (Our Father, Hail Mary, Glory be to the Father ) thrice`
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    25: `In the Name of the Father and of the Son, etc. Amen.
+
+"Or if it is virtue you love why virtues are the fruits of her labours, since it is she who teaches temperance and fortitude" (Wisdom 8: 7).
+
+O Saint of impossible and desperate cases, we have contemplated to what extent you possessed the theological virtues of faith hope and charity. We have also begged you to enable us by your powerful intercession to imitate you and put them into practice.
+
+O God Almighty and Merciful Father, I will begin my request from your Majesty once again with the virtue of prudence, because prudence is that supernatural faculty of the soul which enables us always, under all circumstances of life, to turn our eyes to the real end and object of man, (that is you O My Creator) and to seek and find those things that conduce to his eternal happiness. The question which every one on earth must ask and repeat daily in joy and sorrow, in health and sickness; in youth and old age is "How can I use the things of this world so that they may help me to attain my end?" In a nutshell O My God, Christian prudence is to the Christian life what a compass is to a ship to indicate the right course to steer across the broad expanse of the ocean.
+
+O powerful Saint Rita, you who practised prudence to a heroic degree, obtain for me my lawful request. (Here mention your request). Help me to steer clear of the difficulties which stand in the way of my eternal salvation through Christ our Lord. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    26: `In the Name of the Father and of the Son, etc. Amen.
+
+"The path of the Virtuous is like the light of the dawn, its brightness growing to the fullness of day; the way of the wicked is as dark as night". (Prov. 4: 18).
+
+O My God, to know the end and the way to it is only one side of the question. As a matter of fact, it is only the beginning. I need your grace through Saint Rita's intercession to follow it to the end. This is where the virtue of justice which consists in the constant and persevering effort of the will, comes in. In its narrower meaning, justice consists in the disposition to give to every one his due. O my Creator, I am not only asking for justice in this restricted sense but also as a cardinal virtue. For this I am imploring you on my knees to grant my request through the intercession of Saint Rita. (Here mention your request).
+
+O Saint Rita my Powerful Advocate, the reward, as you well know lies in my final perseverance. Do not let me fall by the way side. Let nothing obscure my vision of eternal happiness. Let nothing separate me from the love of my Crucified Lord Who, without committing any sin suffered so much for me: I resolve today with the help of God's grace to follow Our Lord's example in all my undertakings, through Christ our Lord. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    27: `In the Name of the Father and of the Son, etc. Amen.
+
+"All the fighters at the games go into strict training, they do this just to win a wreath that will wither away, but we do it for a wreath that will never wither. That is how I run, intent on winning; that is how I fight, not beating the air. I treat my body hard and make it obey me, for having been an announcer myself, I should not want to be disqualified". (1 Cor. 9.- 25 - 27).
+
+O my God, forgive me for asking you for another virtue. In order to overcome the dangers with which my way is still fraught after prudence and justice. I need the virtue of temperance.
+
+These dangers are of two kinds namely: those which are of pleasant nature, which seek to entice us from the right path, things flattering to our natural love of ease and comfort, gratifying to the desires of the flesh, or which seem to us to contain the promise of worldly pleasure and enjoyment. In order to meet such obstacles and temptations we stand in need of the virtue of temperance, by which we learn moderation in all those things that are delightful to us. The moderation which will keep us from sin and will ensure the mastery of the spirit over the flesh, furthering and not hindering our progress on the road to heaven.
+O Admirable Saint Rita, you helped hundreds of sufferers while you were on earth, but this was limited to Cascia or at most to Italy. Now that you are at the fountain of grace, favour and mercy, you have rendered untold help in our days. Do not be tired of my constant supplications for my own and other people's needs. I have chosen you as my intercessor. Kindly obtain this grace for me before the end of these prayers. (Here mention your request).
+
+O Dear Saint of impossible and difficult things, hear my prayer through the merits of Our Lord Jesus Christ. Who lives and reigns with God the Father in union with the Holy Spirit world without end. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    28: `In the Name of the Father and of the Son, etc. Amen.
+
+"The king should issue a decree enforcing the following regulation; whoever within the next thirty days prays to anyone, God or man, other than to yourself O king, is to be thrown into the lions' den ......King Darius accordingly signed the document embodying the edict. When Daniel heard that the document had been signed he retired to his house .....praying and giving praise to God as he had always done." (Dan. 6: 7- 11).
+
+O God of consolation, we known that life is not always rosy. We must therefore expect difficulties of unpleasant, disagreeable and distasteful nature. He who wants to keep the straight road that leads to heaven must be prepared for the derision and ridicule of the world, for neglect and contempt, perhaps injury and persecution at the hand of his fellow men.
+
+In addition to this, he must endure the toil and labour involved in the practice of virtue, as well as such trials and sufferings as are laid down by God for His most faithful servants.
+
+We therefore have need of the fourth cardinal virtue which is fortitude, to enable us to face all these difficulties, to despise them and overcome them fearlessly and triumphantly. We see this virtue shinning forth conspicuously in the lives and glorious deaths of the holy martyrs.
+
+O courageous and glorious Saint Rita, this virtue shone brightly in your life when you offered your sons to God while they were still young rather than see them commit sin. O heroic Saint Rita, obtain this virtue for me together with the favour for which I am saying these prayers. (Here mention your request). O Saint Rita, obtain for us the courage to trample underfoot all the allurements of this world and despise all their transitory pleasures for the sake of the kingdom of God. Let the following words of Our Lord always ring in our ears: "What then, will a man gain if he wins the whole world and ruins his life"? This we ask through Christ Our Lord. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
+    29: \`In the Name of the Father and of the Son, etc. Amen.
+
+"The death of the devout costs Yahweh dear" (Psalm 115 (116) 15).
+
+O God of power and might you bestowed such extraordinary graces on Saint Rita that you did many humanly impossible things through her intercession. You crowned her heroic virtue with final perseverance. O Saint of impossible things, as you bore your sufferings with exemplary resignation to the will of God, enable us to offer our sufferings up for the repose of the souls in Purgatory. You received death which generally terrifies mankind, like a sweet sister and you welcomed it with a serene smile. Obtain for us at the hour of our death the grace to see death as a liberator that will loosen the heavy chains that bind us to this world of woe, rather than a thing of horror. You did everything while you were still on earth as if you saw God face to face.
+
+You subdued the seven capital sins and you opposed them with the seven corresponding virtues. You counteracted pride by humility, covetousness by liberality, lust by chastity, anger by meekness, gluttony by temperance, enmity by brotherly love and sloth by diligence.
+
+Obtain for me O Dear Saint Rita, the grant of the intention which I now most earnestly solicit. (Here mention your request). I am prepared to counteract the capital sins mentioned above by the corresponding virtues by the grace of God. Obtain this grace for me so that I may meet my death with a smile and not with fear. Put all other things that will help me to gain eternal salvation at my disposal through Christ Our Lord. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
+    30: \`In the Name of the Father and of the Son, etc. Amen.
+
+"Then I heard a voice from heaven say to me. Write down: Happy are those who die in the Lord. Happy indeed, the Spirit says: now they can rest forever after their work, since their good deeds go with them". (Rev. 14: 13).
+
+O God, you Who are always admirable in your Saints, listen to us through the intercession of Saint Rita. No sooner did she breathe her last than you transformed the putrid wound on her forehead into a spot of glorious light that shone like a jewel under the white candour of her monastic veil. The bells of the Monastery of Saint Mary Magdalen rang out of their own accord and the people of Cascia cried out unanimously "A saint has died". There were other extraordinary happenings. We thank you O God for showering such honour on the remains of your servant St. Rita of Cascia.
+
+O mystical jewel of Umbria, Saint of the impossible, Advocate of cases. Despaired of, Saint of the Bees, Saint of The Roses and Saint of the needy, obtain, I implore you the favour for which I started these prayers. (Here mention your request). O Saint Rita, answer my prayer without any further delay. Your prayers were very efficacious when you were alive and they worked many wonders. I am sure that you will not turn a deaf ear to me O Dear Saint Rita. Look, O God, at the merit of Saint Rita and grant my request and I shall be happy to obtain what I want through Christ Our Lord. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
+    31: \`In the Name of the Father and of the Son, etc. Amen.
+
+"Give thanks to the Lord, because he is good;
+his love is eternal.
+Who can tell all the great things he has done?
+Who can praise him enough?
+Happy are those who obey his commands,
+who always do what is right.
+Remember me Lord when you help your people;
+include me when you save them.
+Let me see the prosperity of your people
+and share in the happiness of your nation,
+in the glad pride of those who belong to you."
+(Ps. 106 vs 1 - 5).
+
+Glory be to the Father and to the Son and to the Holy Spirit. As it was in the beginning, is now and ever shall be world without end. Amen.
+
+O St. Rita our powerful advocate, I have spent the past thirty days in asking you to obtain some favours for me from God. It is now my turn to thank Him. If I have a thousand tongues they will not be enough for me to thank God adequately for His goodness to me. Kindly present my heartfelt thanks to Him. All you nine choirs of angels, archangels, virtues, powers, principalities, dominations, thrones, cherubim and seraphim, praise and thank God for me with your beautiful songs.
+
+Glorious band of Apostles, Praise and thank God for me. White robed martyrs, Praise and thank God for me.
+Noble company of Prophets,
+Praise and thank God for me.
+
+"I thank you Lord, with all my heart,
+You have heard the words of my mouth.
+In the presence of the angels I will bless you.
+I will adore before your holy temple.
+O God Our compassionate Father accept my thanks and gratitude."
+
+I thank you for your faithfulness and love which excel all we ever knew of you. On the day I called, you answered; You increased the strength of my soul.
+
+O God Our Compassionate Father, accept my thanks and gratitude. All earth's kings shall thank you when they hear the words of your mouth. They shall sing of the Lord's ways. How great is the glory of the Lord!"
+
+O God Our Compassionate Father, accept my thanks and gratitude. The Lord is high, yet he looks on the lowly and the haughty He knows from afar. Though I walk in the midst of affliction, you give me life and frustrate my foes.
+
+O God Our Compassionate Father, accept my thanks and gratitude. You stretch out your hand and save me, your hand will do all things for me. Your love, O Lord, is eternal, discard not the work of your hands". (Ps. 137 (138).
+
+O God Our Compassionate Father accept my thanks and gratitude.
+
+Glory be to the Father and to the Son and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.
+
+'Praise the Lord, my soul, and do not forget how kind he is.
+He forgives all my sins and heals all my diseases,
+Praise the Lord, my soul!
+All my being, praise his holy name!
+He keeps me from the grave and blesses me with love and mercy.
+He fills my life with good things, so that I stay young and strong like an eagle.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+The Lord judges in favour of the oppressed and gives them their rights.
+He revealed his plans to Moses and let the people of Israel see his mighty deeds.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+
+The Lord is merciful and loving, slow to become angry and full of constant love
+He does not keep on rebuking; he is not angry forever.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+He does not punish us as we deserve or repay us for our sins and wrongs.
+As high as the sky is above the earth, so great is his love for those who honour him.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+As far as the east is from the west, so far does he remove our sins from us
+Praise the Lord, my soul!
+All my being, praise his holy name!
+As kind as a father is to his children, so kind is the Lord to those who honour him
+
+He knows what we are made of, he remembers that we are dust.
+
+Praise the Lord, my soul!
+All my being, praise his holy name!
+As for us, our life is like grass.
+We grow and flourish like a wild flower,-
+then the wind blows on it, and it is gone -
+no one sees it again.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+But for those who honour the Lord, his
+love lasts forever, and his goodness
+endures for all generations.
+
+Of those who are true to his covenant and who faithfully obey his commands.
+
+Praise the Lord, my soul!
+All my being, praise his holy name!
+The Lord placed his throne in heaven;
+he is king overall.
+Praise the Lord, you strong and mighty
+angels, who obey his commands,
+who listen to what he says.
+Praise the Lord, my soul!
+All my being, praise his holy name!
+Praise the Lord, all you heavenly powers,
+you servants of his, who do his will;
+Praise the Lord, all his creatures in all
+the places he rules
+Praise the Lord, my soul!
+Praise the Lord, my soul!
+All my being, praise his holy name!
+Ps. 103 (104)
+
+Glory be to the Father and to the Son and the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.
+
+O my Dearest Mother Rita, I am most grateful for constantly interceding for me and for your devotees all over the world. Our way here below is fraught with both physical and spiritual dangers: therefore I will not stop invoking you until you lead me to that everlasting happiness which St. Paul tells us in his First Epistle to the Corinthians chapter two verse nine, that
+
+"What no one ever saw or heard,
+What no one ever thought could happen,
+is the very thing God prepared for those
+who love him".
+
+May the fulfillment of these words of Our Lord be my lot hereafter through Christ Our Lord. Amen.
+
+In the Name of the Father and of the Son, etc. Amen.
+
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`
   };
   const todaysPrayer = dailyPrayers[date] || "[Prayer for today's specific date has not been added yet]";
 
