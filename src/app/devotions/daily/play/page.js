@@ -383,8 +383,8 @@ We therefore have need of the fourth cardinal virtue which is fortitude, to enab
 
 O courageous and glorious Saint Rita, this virtue shone brightly in your life when you offered your sons to God while they were still young rather than see them commit sin. O heroic Saint Rita, obtain this virtue for me together with the favour for which I am saying these prayers. (Here mention your request). O Saint Rita, obtain for us the courage to trample underfoot all the allurements of this world and despise all their transitory pleasures for the sake of the kingdom of God. Let the following words of Our Lord always ring in our ears: "What then, will a man gain if he wins the whole world and ruins his life"? This we ask through Christ Our Lord. Amen.
 
-Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
-    29: \`In the Name of the Father and of the Son, etc. Amen.
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    29: `In the Name of the Father and of the Son, etc. Amen.
 
 "The death of the devout costs Yahweh dear" (Psalm 115 (116) 15).
 
@@ -394,8 +394,8 @@ You subdued the seven capital sins and you opposed them with the seven correspon
 
 Obtain for me O Dear Saint Rita, the grant of the intention which I now most earnestly solicit. (Here mention your request). I am prepared to counteract the capital sins mentioned above by the corresponding virtues by the grace of God. Obtain this grace for me so that I may meet my death with a smile and not with fear. Put all other things that will help me to gain eternal salvation at my disposal through Christ Our Lord. Amen.
 
-Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
-    30: \`In the Name of the Father and of the Son, etc. Amen.
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    30: `In the Name of the Father and of the Son, etc. Amen.
 
 "Then I heard a voice from heaven say to me. Write down: Happy are those who die in the Lord. Happy indeed, the Spirit says: now they can rest forever after their work, since their good deeds go with them". (Rev. 14: 13).
 
@@ -403,8 +403,8 @@ O God, you Who are always admirable in your Saints, listen to us through the int
 
 O mystical jewel of Umbria, Saint of the impossible, Advocate of cases. Despaired of, Saint of the Bees, Saint of The Roses and Saint of the needy, obtain, I implore you the favour for which I started these prayers. (Here mention your request). O Saint Rita, answer my prayer without any further delay. Your prayers were very efficacious when you were alive and they worked many wonders. I am sure that you will not turn a deaf ear to me O Dear Saint Rita. Look, O God, at the merit of Saint Rita and grant my request and I shall be happy to obtain what I want through Christ Our Lord. Amen.
 
-Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`,
-    31: \`In the Name of the Father and of the Son, etc. Amen.
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`,
+    31: `In the Name of the Father and of the Son, etc. Amen.
 
 "Give thanks to the Lord, because he is good;
 his love is eternal.
@@ -518,7 +518,7 @@ May the fulfillment of these words of Our Lord be my lot hereafter through Chris
 
 In the Name of the Father and of the Son, etc. Amen.
 
-Say (Our Father, Hail Mary, Glory be to the Father ) thrice\`
+Say (Our Father, Hail Mary, Glory be to the Father ) thrice`
   };
   const todaysPrayer = dailyPrayers[date] || "[Prayer for today's specific date has not been added yet]";
 
@@ -776,3 +776,4 @@ export default function PrayerPlayer() {
     </Suspense>
   );
 }
+
